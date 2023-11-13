@@ -1,6 +1,8 @@
+import { useCounter } from "@/app/management/counterState";
 import React from "react";
 
 const TopMenu = () => {
+  const count = useCounter((state) => state.count);
   return (
     <div className="h-[101px] p-9 bg-skin-base flex justify-between items-center">
       <div className="flex">
@@ -23,7 +25,7 @@ const TopMenu = () => {
           />
         </svg>
         <div className="text-black leading-normal not-italic font-[700px] text-[18px]">
-          0
+          {count}
         </div>
       </div>
     </div>

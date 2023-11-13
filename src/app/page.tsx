@@ -1,17 +1,14 @@
-import Footer from "@/components/Footer";
-import ProductCard from "@/components/ProductCard";
-import ProductsGrid from "@/components/ProductsGrid";
-import TopMenu from "@/components/TopMenu";
-import Image from "next/image";
+"use client";
+import HomePage from "@/components/HomePage";
+import SideBar from "@/components/SideBar";
+
+import { QueryClient, QueryClientProvider } from "react-query";
 
 export default function Home() {
+  const queryClient = new QueryClient();
   return (
-    <main className="bg-skin-bg ">
-      <div className="w-full h-[1024px] shrink-0 bg-skin-bg flex flex-col justify-between">
-        <TopMenu />
-        <ProductsGrid />
-        <Footer />
-      </div>
-    </main>
+    <QueryClientProvider client={queryClient}>
+      <HomePage />
+    </QueryClientProvider>
   );
 }
