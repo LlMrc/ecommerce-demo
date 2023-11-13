@@ -2,12 +2,6 @@ import { useAddToList } from "@/app/management/comprar";
 import Image from "next/image";
 import React from "react";
 
-interface Props {
-  name: string;
-  img: string;
-  price: number;
-}
-
 const Card = () => {
   const comprar = useAddToList((state) => state.product);
   return (

@@ -1,4 +1,3 @@
-import { it } from "node:test";
 import React from "react";
 
 const Shimmer = () => {

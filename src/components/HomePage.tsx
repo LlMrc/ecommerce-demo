@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Footer from "./Footer";
 import ProductsGrid from "./ProductsGrid";
 import TopMenu from "./TopMenu";

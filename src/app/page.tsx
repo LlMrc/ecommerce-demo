@@ -1,6 +1,5 @@
 "use client";
 import HomePage from "@/components/HomePage";
-import SideBar from "@/components/SideBar";
 
 import { QueryClient, QueryClientProvider } from "react-query";
 

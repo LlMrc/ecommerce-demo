@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { type } from "os";
+
 import React from "react";
 import { Product } from "@/app/Type";
 import { useCounter } from "@/app/management/counterState";
