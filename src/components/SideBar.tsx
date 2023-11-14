@@ -9,9 +9,9 @@ const SideBar = () => {
   let prices = 0;
 
   total.forEach(function (obj) {
-    const el = Number(obj.price).toFixed(2);
-    prices += parseFloat(el);
-    console.log(prices);
+    const el = Number(obj.price).toFixed(3);
+    const t = (prices += parseFloat(el));
+    console.log(t);
   });
 
   return (
@@ -35,7 +35,7 @@ const SideBar = () => {
           </p>
         </div>
       </div>
-      <div className=" h-full pt-8 mx-[auto]">
+      <div className=" h-[23rem] scrollbar overflow-y-scroll  pt-8 mx-[auto]">
         <Card />
       </div>
 

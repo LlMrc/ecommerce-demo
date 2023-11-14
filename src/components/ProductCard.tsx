@@ -27,9 +27,9 @@ const ProductCard = (product: Product) => {
         />
         <div className="block ">
           <div className="flex justify-between  pl-[10px]  py-2">
-            <div className="flex w-[200px] items-baseline h-[38px] flex-shrink-0 text-[#2C2C2C] text-[16px] font-[400px] leading-[19px]">
-              <span className="w-3/4"> {product.name} </span>
-              <div className="flex flex-wrap  content-center justify-center rounded-[5px] w-[66px] overflow-x-hidden h-[26px] flex-shrink-0 bg-[#2C2C2C] text-white text-[12px] leading-[15px] font-[700px]">
+            <div className="flex w-[200px]  items-baseline h-[38px] flex-shrink-0 text-[#2C2C2C] text-[16px] font-[400px] leading-[19px]">
+              <span className="w-2/3"> {product.name} </span>
+              <div className="flex   items-center justify-center rounded-[5px] w-[66px] overflow-hidden  h-[26px] flex-shrink-0 bg-[#2C2C2C] text-white text-[12px] leading-[15px] font-[700px]">
                 {`R$${product.price}`}
               </div>
             </div>
