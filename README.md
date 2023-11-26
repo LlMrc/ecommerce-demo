@@ -4,25 +4,15 @@
 `markdown
 # eCommerce Website Template
 
-This is an open-source eCommerce website template built with [insert your technology stack or framework here]. It serves as a starting point for developing your own online store or eCommerce platform. You can use it to kickstart your project, saving you time and effort in setting up the basic structure.
-
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-
-
+This is an open-source eCommerce website template built with #Next.js 14. It serves as a starting point for developing your own online store or eCommerce platform. You can use it to kickstart your project, saving you time and effort in setting up the basic structure.
+ Data was fetching using Axios and React Query a common pattern in React applications, especially when you need to interact with APIs or retrieve data from a server. 
 
 ## Installation
 
-Provide instructions on how to install and set up your eCommerce template locally. Include any prerequisites, dependencies, or system requirements. For example:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ecommerce-template.git
+git clone https://github.com/LlMrc/ecommerce-demo.git
 
 # Change into the project directory
 cd ecommerce-template
@@ -34,18 +24,11 @@ npm install
 npm start
 ```
 
-## Usage
-
-Explain how users can use your eCommerce template. Provide code examples and screenshots if necessary. For example:
 
 ```bash
 # To run the development server:
 npm start
 ```
-
-## Configuration
-
-Detail how users can configure and customize the template for their specific needs. Include information on environment variables, settings, and any other relevant configuration options.
 
 ## Contributing
 
