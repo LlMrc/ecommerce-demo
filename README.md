@@ -1,11 +1,12 @@
 
 
-``![e2](https://github.com/LlMrc/ecommerce-demo/assets/90993312/ecc7fa99-2f34-454a-a24f-d133c6ddc6de)
-`markdown
+![e2](https://github.com/LlMrc/ecommerce-demo/assets/90993312/ecc7fa99-2f34-454a-a24f-d133c6ddc6de)
+
 # eCommerce Website Template
 
 This is an open-source eCommerce website template built with #Next.js 14. It serves as a starting point for developing your own online store or eCommerce platform. You can use it to kickstart your project, saving you time and effort in setting up the basic structure.
- Data was fetching using Axios and React Query a common pattern in React applications, especially when you need to interact with APIs or retrieve data from a server. 
+
+ Data was fetching using Axios and React Query a common pattern in React applications. 
 
 ## Installation
 
@@ -33,7 +34,7 @@ npm start
 ## Contributing
 
 Explain how others can contribute to your project. Include information on how to submit issues, suggestions, or pull requests. For example:
-
+# buy me coffee https://www.buymeacoffee.com/llouismrc2W
 Contributions are welcome! If you want to contribute to this project, please follow these steps:
 
 1. Fork the repository
