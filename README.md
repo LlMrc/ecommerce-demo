@@ -1,8 +1,6 @@
 
-
-![e2](https://github.com/LlMrc/ecommerce-demo/assets/90993312/ecc7fa99-2f34-454a-a24f-d133c6ddc6de)
-
 # eCommerce Website Template
+![Untitled design](https://github.com/LlMrc/ecommerce-demo/assets/90993312/18d92f09-1a49-428b-a290-2b45799be86d)
 
 This is an open-source eCommerce website template built with #Next.js 14. It serves as a starting point for developing your own online store or eCommerce platform. You can use it to kickstart your project, saving you time and effort in setting up the basic structure.
 
